@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+html {
+  font-size: calc(10px + (14 - 10) * ((100vw - 400px) / (800 - 400)));
+}
+
+body {
+  font-family: sans-serif;
+  background: #5f17a1;
+}
+
+ul.service-list {
+  display: flex;
+  flex-direction: column;
+  width: 640px;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.service-list-item-wrap {
+  min-height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+  background-color:aqua;
+  border-radius: 38px;
+  margin-top: 15px;
+}
+
+h5.card-title {
+  font-size: 1.1rem;
+  width: 40%;
+}
+
+.buttons__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100px;
+}
+
+.card-btn__edit {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  border: none;
+  background-image: url(../public/pencil.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.card-btn__del {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  border: none;
+  background-image: url(../public/delete.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.card-btn__edit:active, .card-btn__del:active{
+  width: 30px;
+  height: 30px;
+}
+
+.form-field-wrapper {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.repair-forms>input{
+  background-color:aqua;
+}
+.repair-form__btns-block>button{
+  background-color:rgb(212, 65, 65);
+  min-width: 65px;
+}
+
+form.repair-forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:30px;
+  height: 40px;
+  margin-left: -25px;
+}
+
+.repair-form__btns-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100px;
+}
+
+button.repair-form-add__btn,
+.repair-form-cancel__btn {
+  width: 150px;
+  background-color:aqua;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+button.post-new-form-add__btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 110px;
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  background-image: url(https://w7.pngwing.com/pngs/1003/979/png-transparent-computer-icons-message-email-sms-sms-miscellaneous-blue-angle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+}
+.card-edit-form-add__btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 90px;
+  margin-right: 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  background-image: url(https://w7.pngwing.com/pngs/1003/979/png-transparent-computer-icons-message-email-sms-sms-miscellaneous-blue-angle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+}
+button.form-add__btn:hover {
+  border: 1px solid rosybrown;
+}
+
+
+.tooltipe {
+  color: red;
+  margin: 15px auto;
+  font-size: 0.8rem;
+  visibility: hidden;
+}
+
+

@@ -1,0 +1,7 @@
+export const CHANGE_FIELD_VALUE = "CHANGE_FIELD_VALUE";
+export const RESET_FORM = "RESET_FORM";
+export const COMPLETE_FORM = "COMPLETE_FORM";
+export const NEW_ITEM_LIST = "NEW_ITEM_LIST";
+export const REMOVE_ITEM_LIST = "REMOVE_ITEM_LIST";
+export const EDIT_ITEM_LIST = "EDIT_ITEM_LIST";
+
