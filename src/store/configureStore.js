@@ -1,5 +1,5 @@
 import { combineReducers, compose, legacy_createStore } from "redux";
-import reduserForm from "../reducers/reduserForm";
+import reducerForm from "../reducers/reducerForm";
 import reducerServiceList from "../reducers/reducerServiceList";
 
 const ReactReduxDevTools =
@@ -8,7 +8,7 @@ const ReactReduxDevTools =
 const configureStore = () => {
   return legacy_createStore(
     combineReducers({
-      item: reduserForm,
+      item: reducerForm,
       serviceList:reducerServiceList,
     }),
     undefined,

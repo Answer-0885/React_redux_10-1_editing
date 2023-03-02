@@ -17,7 +17,7 @@ export const resetForm = () => {
 };
 
 export const addServiceList = (name, price) => {
-  return { type: NEW_ITEM_LIST, payload: { id: nanoid(8), name, price } };
+  return { type: NEW_ITEM_LIST, payload: { id: nanoid(), name, price } };
 };
 
 export const removeItemServiceList = (id) => {

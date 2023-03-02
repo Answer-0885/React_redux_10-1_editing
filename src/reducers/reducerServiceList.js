@@ -1,9 +1,10 @@
+import { nanoid } from "nanoid";
 import {
   NEW_ITEM_LIST,
   REMOVE_ITEM_LIST,
   EDIT_ITEM_LIST,
   } from "../actions/actionTypes";
-import { nanoid } from "nanoid";
+
 
 const initialState = [
 { id: nanoid(), name: "Замена стекла", price: "3000" },

@@ -8,7 +8,7 @@ const Panel = () => {
   return (
     <React.Fragment>
       <div className="panel-header">
-        <Form key={nanoid()} type={"repair"} />
+        <Form type={"repair"} />
       </div>
       <List key={nanoid()} type={"service"}></List>
     </React.Fragment>

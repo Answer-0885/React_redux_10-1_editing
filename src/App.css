@@ -65,7 +65,7 @@ h5.card-title {
   height: 25px;
   margin-right: 5px;
   border: none;
-  background-image: url(../public/pencil.png);
+  background-image: url(./img/pencil.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -78,7 +78,7 @@ h5.card-title {
   height: 25px;
   margin-left: 5px;
   border: none;
-  background-image: url(../public/delete.png);
+  background-image: url(./img/delete.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

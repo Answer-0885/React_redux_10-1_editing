@@ -6,13 +6,13 @@ import { nanoid } from 'nanoid'
 export const ItemList = ({ id, className, children }) => {
   return (
     <React.Fragment>
-      <ItemList id={id} className={className + "-item item-list"} key={nanoid()}>
+      <div id={id} className={className + "-item item-list"} key={nanoid()}>
         <div className={className + "-item-wrap"} key={nanoid()}>
           {React.Children.map(children, (child) => {
             return child;
           })}
         </div>
-      </ItemList>
+      </div>
     </React.Fragment>
   );
 };

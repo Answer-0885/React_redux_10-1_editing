@@ -1,3 +1,4 @@
+import React from "react";
 import Panel from "./components/Panel/Panel";
 import "./App.css";
 
